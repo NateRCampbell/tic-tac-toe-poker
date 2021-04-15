@@ -89,7 +89,7 @@ In this step, we will reassign value of the `player` from `X` to `O` when the bo
 
   - The first thing that we will want to do inside our `index.js` file is to make a function called `play`. This function will not take in any parameters.
   - Inside the `play` function we need to get the element in the html document that displays who's turn it currently is. Notice that in the HTML file there is a span surrounding an X with an id of `player`.
-    - To select the span we will need to use `document.getElementById('player')` and store it in a variable called `playerSpan` so we can reference it later in the function.
+    - To select the span we will need to use `document.getElementById('player')` and store it in a variable called `playerSp an` so we can reference it later in the function.
   - Now that we have selected the span and stored it to a variable we need to toggle the text inside the html to be either `X` or `O`.
     - To do this we need to write an if statement that checks if the `playerSpan.innerText` is `===` to `X`.
     - If `playerSpan.innerText` is equal to `X` then set the the value of `playerSpan.innerText` to `O`.
